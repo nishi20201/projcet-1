@@ -1,0 +1,40 @@
+ 
+ 
+.nav{
+    float: right;
+    list-style: none;
+
+}
+
+ li {
+    display: inline-block;
+}
+li a{
+    color:blue;
+    text-decoration: none;
+    padding: 15px 16px;
+    font-family: "roboto", sans-serif;
+    font-size: 16px;
+    display:block ;
+}
+
+li.active a{
+    border: 3px solid green;
+}
+li a:hover{
+   border:3px solid green; 
+   background-color:rgb(83, 224, 64);
+}
+.logo img{
+    width: 150px;
+    height: auto;
+    float:left ;
+}
+.content{
+    text-align: center;
+    margin:12% ;
+}
+.content h1{
+    font-size: 50px;
+    color:black;
+}
